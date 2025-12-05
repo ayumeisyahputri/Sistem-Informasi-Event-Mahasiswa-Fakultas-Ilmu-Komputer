@@ -1,0 +1,554 @@
+CRITICAL - 2025-11-28 08:23:58 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:23:58 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:24:00 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:24:00 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:24:00 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:26:30 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:26:37 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:26:37 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:27:47 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:27:48 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:27:50 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:27:50 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:27:50 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:27:50 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:27:51 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:27:51 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:27:51 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:27:51 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:29:08 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:29:09 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:29:09 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:29:09 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:29:25 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:29:25 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:31:29 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:31:29 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:31:30 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:31:31 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:38:48 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:38:48 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+CRITICAL - 2025-11-28 08:40:41 --> ErrorException: include(C:\Users\NITRO\Eventweb2\vendor\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php): Failed to open stream: No such file or directory', 'C:\\Users\\NITRO\\Eventweb2\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app/Controllers/BaseController.php')
+ 4 APPPATH\Controllers\Auth.php(5): Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\BaseController')
+ 5 VENDORPATH\composer\ClassLoader.php(576): include('C:\\Users\\NITRO\\Eventweb2\\app\\Controllers\\Auth.php')
+ 6 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\NITRO\\Eventweb2\\vendor\\composer/../../app\\Controllers\\Auth.php')
+ 7 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
+DEBUG - 2025-11-28 08:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-28 08:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-28 08:45:43 --> Error: Class "App\Filters\AdminGuard" not found
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('App\\Filters\\AdminGuard')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('mahasiswa', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\NITRO\\Eventweb2\\public\\index.php')
