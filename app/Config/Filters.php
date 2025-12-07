@@ -29,9 +29,9 @@ class Filters extends BaseFilters
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
 
-        // === CUSTOM FILTERS ===
-        'authGuard'     => \App\Filters\AuthFilter::class, // pastikan class bener
-        'adminGuard'    => \App\Filters\AdminFilter::class, // pastikan class bener
+        // CUSTOM FILTERS (yang benar)
+        'authGuard'     => \App\Filters\AuthFilter::class,
+        'adminGuard'    => \App\Filters\AdminFilter::class,
     ];
 
     /**
@@ -54,7 +54,7 @@ class Filters extends BaseFilters
      */
     public array $globals = [
         'before' => [
-            // Tidak pakai CSRF global biar login cookie/remember me lancar
+            // CSRF dimatikan untuk login cookie
         ],
         'after' => [
             // 'secureheaders',
@@ -93,8 +93,10 @@ class Filters extends BaseFilters
                 'event/edit/*',
                 'event/update/*',
                 'event/delete/*',
+
                 'mahasiswa',
                 'mahasiswa/*',
+
                 'pendaftaran/edit/*',
                 'pendaftaran/update/*',
                 'pendaftaran/delete/*',

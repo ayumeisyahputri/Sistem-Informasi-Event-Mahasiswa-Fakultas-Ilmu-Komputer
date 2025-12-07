@@ -1,0 +1,170 @@
+<?php namespace App\Controllers;
+
+use App\Models\EventModel;
+use App\Models\PendaftaranModel;
+use CodeIgniter\Controller;
+
+class EventController extends BaseController
+{
+    protected $eventModel;
+    protected $pendaftaranModel;
+
+    public function __construct()
+    {
+        $this->eventModel = new EventModel();
+
+        // jika PendaftaranModel ada di project, kita pakai untuk cek kuota
+        if (class_exists('\App\Models\PendaftaranModel')) {
+            $this->pendaftaranModel = new PendaftaranModel();
+        }
+    }
+
+    // LIST utk admin (semua event) - admin-only check
+    public function index()
+    {
+        // hanya admin boleh akses halaman manajemen event
+        if (session()->get('role') !== 'admin') {
+            return redirect()->to('/event')->with('error','Akses admin diperlukan.');
+        }
+
+        $events = $this->eventModel->orderBy('tanggal_event','ASC')->findAll();
+
+        echo view('layout/header');
+        echo view('admin/event_list', ['events' => $events]);
+        echo view('layout/footer');
+    }
+
+    // tampil form tambah event
+    public function create()
+    {
+        if (session()->get('role') !== 'admin') {
+            return redirect()->to('/event')->with('error','Akses admin diperlukan.');
+        }
+
+        echo view('layout/header');
+        echo view('admin/event_add');
+        echo view('layout/footer');
+    }
+
+    // simpan event baru
+    public function store()
+    {
+        if (session()->get('role') !== 'admin') {
+            return redirect()->to('/event')->with('error','Akses admin diperlukan.');
+        }
+
+        // validasi server-side
+        $rules = [
+            'nama_event' => 'required|min_length[3]',
+            'tanggal_event' => 'required|valid_date[Y-m-d]',
+            'kapasitas' => 'required|integer|greater_than[0]'
+        ];
+
+        if (! $this->validate($rules)) {
+            return redirect()->back()->withInput()->with('error', implode(', ', $this->validator->getErrors()));
+        }
+
+        $data = [
+            'nama_event' => $this->request->getPost('nama_event'),
+            'deskripsi' => $this->request->getPost('deskripsi'),
+            'penyelenggara' => $this->request->getPost('penyelenggara'),
+            'lokasi' => $this->request->getPost('lokasi'),
+            'tanggal_event' => $this->request->getPost('tanggal_event'),
+            'deadline_pendaftaran' => $this->request->getPost('deadline_pendaftaran') ?: null,
+            'kapasitas' => (int)$this->request->getPost('kapasitas'),
+        ];
+
+        $this->eventModel->save($data);
+        return redirect()->to('/admin/event')->with('success','Event berhasil ditambahkan.');
+    }
+
+    // form edit
+    public function edit($id)
+    {
+        if (session()->get('role') !== 'admin') {
+            return redirect()->to('/event')->with('error','Akses admin diperlukan.');
+        }
+
+        $event = $this->eventModel->find($id);
+        if (! $event) return redirect()->to('/admin/event')->with('error','Event tidak ditemukan.');
+
+        echo view('layout/header');
+        echo view('admin/event_edit', ['event' => $event]);
+        echo view('layout/footer');
+    }
+
+    // update
+    public function update($id)
+    {
+        if (session()->get('role') !== 'admin') {
+            return redirect()->to('/event')->with('error','Akses admin diperlukan.');
+        }
+
+        $rules = [
+            'nama_event' => 'required|min_length[3]',
+            'tanggal_event' => 'required|valid_date[Y-m-d]',
+            'kapasitas' => 'required|integer|greater_than[0]'
+        ];
+
+        if (! $this->validate($rules)) {
+            return redirect()->back()->withInput()->with('error', implode(', ', $this->validator->getErrors()));
+        }
+
+        $data = [
+            'nama_event' => $this->request->getPost('nama_event'),
+            'deskripsi' => $this->request->getPost('deskripsi'),
+            'penyelenggara' => $this->request->getPost('penyelenggara'),
+            'lokasi' => $this->request->getPost('lokasi'),
+            'tanggal_event' => $this->request->getPost('tanggal_event'),
+            'deadline_pendaftaran' => $this->request->getPost('deadline_pendaftaran') ?: null,
+            'kapasitas' => (int)$this->request->getPost('kapasitas'),
+        ];
+
+        $this->eventModel->update($id, $data);
+        return redirect()->to('/admin/event')->with('success','Event diperbarui.');
+    }
+
+    // delete
+    public function delete($id)
+    {
+        if (session()->get('role') !== 'admin') {
+            return redirect()->to('/event')->with('error','Akses admin diperlukan.');
+        }
+
+        $this->eventModel->delete($id);
+        return redirect()->to('/admin/event')->with('success','Event dihapus.');
+    }
+
+    // halaman riwayat event (sudah lewat)
+    public function riwayat()
+    {
+        if (session()->get('role') !== 'admin') {
+            return redirect()->to('/event')->with('error','Akses admin diperlukan.');
+        }
+
+        $today = date('Y-m-d');
+        $events = $this->eventModel->where('tanggal_event <', $today)->orderBy('tanggal_event','DESC')->findAll();
+
+        echo view('layout/header');
+        echo view('admin/event_riwayat', ['events' => $events]);
+        echo view('layout/footer');
+    }
+
+    // helper: cek sisa kuota (dipakai sama orang 3 nanti)
+    public function sisaKuota($id_event)
+    {
+        $event = $this->eventModel->find($id_event);
+        if (! $event) return 0;
+
+        $kapasitas = (int)$event['kapasitas'];
+
+        if ($this->pendaftaranModel) {
+            $count = $this->pendaftaranModel->where('id_event', $id_event)->where('status !=', 'Ditolak')->countAllResults();
+        } else {
+            // fallback: jika pendaftaranModel belum ada, asumsikan 0 pendaftar
+            $count = 0;
+        }
+
+        return max(0, $kapasitas - $count);
+    }
+}

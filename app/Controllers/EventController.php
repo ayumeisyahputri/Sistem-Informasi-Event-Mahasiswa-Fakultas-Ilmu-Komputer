@@ -30,7 +30,7 @@ class EventController extends BaseController
         echo view('layout/footer');
     }
 
-    // HANYA ADMIN
+    // HANYA ADMIN YANG BISA AKSES HALAMAN INI
     public function create()
     {
         if (session()->get('role') !== 'admin') {
@@ -48,7 +48,6 @@ class EventController extends BaseController
             return redirect()->to('/event')->with('error', 'Anda bukan admin.');
         }
 
-        
         // SIMPAN EVENT
         $this->eventModel->save([
             'nama_event' => $this->request->getPost('nama_event'),
@@ -57,12 +56,10 @@ class EventController extends BaseController
             'deadline_pendaftaran' => $this->request->getPost('deadline_pendaftaran'),
         ]);
 
-        
-        // NOTIFIKASI EVENT BARU
-        
+        // NOTIFIKASI EVENT BARU (dari HEAD)
         $notifModel = new \App\Models\NotifikasiModel();
         $notifModel->insert([
-            'user_id'   => 0,  // broadcast ke semua mahasiswa
+            'user_id'   => 0,  
             'judul'     => 'Event Baru',
             'pesan'     => 'Event "' . $this->request->getPost('nama_event') . '" telah ditambahkan.',
             'is_read'   => 0,
@@ -79,6 +76,7 @@ class EventController extends BaseController
         }
 
         $data['event'] = $this->eventModel->find($id);
+
         echo view('layout/header');
         echo view('event/edit', $data);
         echo view('layout/footer');
@@ -105,6 +103,7 @@ class EventController extends BaseController
         if (session()->get('role') !== 'admin') {
             return redirect()->to('/event')->with('error', 'Anda bukan admin.');
         }
+
         $this->eventModel->delete($id);
 
         return redirect()->to('/event')->with('success', 'Event dihapus.');

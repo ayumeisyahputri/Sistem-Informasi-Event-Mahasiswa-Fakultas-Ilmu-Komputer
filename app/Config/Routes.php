@@ -31,16 +31,16 @@ $routes->group('', ['filter' => 'authGuard'], function($routes){
 
     // Pendaftaran
     $routes->get('/pendaftaran', 'PendaftaranController::index');
-    $routes->get('/pendaftaran/create/(:num)', 'PendaftaranController::create/$1'); // daftar ke event
+    $routes->get('/pendaftaran/create/(:num)', 'PendaftaranController::create/$1'); 
     $routes->post('/pendaftaran/store', 'PendaftaranController::store');
     $routes->get('/pendaftaran/edit/(:num)', 'PendaftaranController::edit/$1');
     $routes->post('/pendaftaran/update/(:num)', 'PendaftaranController::update/$1');
     $routes->get('/pendaftaran/delete/(:num)', 'PendaftaranController::delete/$1');
 
-    // Notifikasi
-   $routes->get('/notifikasi', 'NotifikasiController::index');
-   $routes->get('/notifikasi/delete/(:num)', 'NotifikasiController::delete/$1');
-   $routes->get('/notifikasi/markRead/(:num)', 'NotifikasiController::markRead/$1');
-   $routes->get('/notifikasi/countUnread', 'NotifikasiController::countUnread');
+    // Notifikasi (MERGE FIX)
+    $routes->get('/notifikasi', 'NotifikasiController::index');
+    $routes->get('/notifikasi/delete/(:num)', 'NotifikasiController::delete/$1');
+    $routes->get('/notifikasi/markRead/(:num)', 'NotifikasiController::markRead/$1');
+    $routes->get('/notifikasi/countUnread', 'NotifikasiController::countUnread');
 
 });
