@@ -66,4 +66,4 @@
     <div class="notif-box" style="border-left-color:#00a651;">
         <?= session()->getFlashdata('success') ?>
     </div>
-<?php endif; ?>
+<?php endif; ?>git add app/Views/Layout/header.php
