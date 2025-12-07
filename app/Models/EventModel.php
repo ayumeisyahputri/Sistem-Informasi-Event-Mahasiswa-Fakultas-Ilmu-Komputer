@@ -6,5 +6,12 @@ class EventModel extends Model
 {
     protected $table = 'event';
     protected $primaryKey = 'id_event';
-    protected $allowedFields = ['nama_event','deskripsi','penyelenggara','deadline_pendaftaran'];
+
+    protected $allowedFields = [
+        'nama_event',
+        'deskripsi',
+        'penyelenggara',
+        'deadline_pendaftaran',
+        'kapasitas' 
+    ];
 }
