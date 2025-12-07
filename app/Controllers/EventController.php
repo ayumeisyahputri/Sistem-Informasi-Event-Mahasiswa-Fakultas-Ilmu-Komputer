@@ -50,7 +50,6 @@ class EventController extends BaseController
 
         
         // SIMPAN EVENT
-        
         $this->eventModel->save([
             'nama_event' => $this->request->getPost('nama_event'),
             'deskripsi' => $this->request->getPost('deskripsi'),
